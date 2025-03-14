@@ -39,7 +39,7 @@ Install the following software:
 Before running benchmarks, consider the following adjustments based on your environment:
 
 - Update paths to absolute paths if the testbench uses external files.
-- Remove instances of `$break` from the asynchronous `FIFO` testbench.
+- Remove instances of `$break` from the `asyn_fifo` testbench.
 - Use explicit module instantiation for the `LFSR` testbench.
 - Rename folders if their names contain spaces.
 - Adjust the `modelfile` of the LLM if generation issues arise due to length limitations. Refer to the [Ollama modelfile documentation](https://github.com/ollama/ollama/blob/main/docs/modelfile.md).
