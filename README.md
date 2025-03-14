@@ -1,6 +1,6 @@
 # LLM Verilog Generation
 
-This repository contains Python scripts designed to test and evaluate the capability of Large Language Models (LLMs) to generate Verilog code. The evaluation framework used here is RTLLM.
+This repository contains Python scripts designed to test and evaluate the capability of Large Language Models (LLMs) to generate Verilog code. The evaluation framework used here is [RTLLM](https://github.com/hkust-zhiyao/RTLLM).
 
 ## Overview
 
