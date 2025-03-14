@@ -20,6 +20,9 @@ The scripts provided mainly utilize Ollama to run various LLMs. There's also fun
   - Enhanced prompts to improve error avoidance.
   - Includes additional reasoning prompts for the LLM.
 
+- **`script_all_v3_nr.py`**:
+  - Removes reasoning prompts for comparing.
+
 - **`run5.py`**:
   - Facilitates running benchmarks multiple times.
   - Adjust `NUM_RUNS` to control how many benchmarks are executed.
