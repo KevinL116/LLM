@@ -23,6 +23,10 @@ The scripts provided mainly utilize Ollama to run various LLMs. There's also fun
 - **`script_all_v3_nr.py`**:
   - Removes reasoning prompts for comparing.
 
+- **`script_all_v4.py`**:
+  - The results of all retries are saved.
+  - The `extract_verilog_code` function is modified to improve stability.
+
 - **`run5.py`**:
   - Facilitates running benchmarks multiple times.
   - Adjust `NUM_RUNS` to control how many benchmarks are executed.
